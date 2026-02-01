@@ -17,9 +17,9 @@ public class searchInsertPosition {
         return start;
     }
     public static void main(String[] args) {
-         int[] nums = {1,3,5,6};
+         int[] nums = {1,3,5,6};    
          int target = 7;
          int output = searchInsert(nums, target);
          System.out.println("Insert position is: "+output);
-    }
+    }   
 }
