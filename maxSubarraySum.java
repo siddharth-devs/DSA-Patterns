@@ -23,9 +23,9 @@ public class maxSubarraySum {
         }
 
         System.out.println("Maximum Subarray Sum ="+ max);
-        System.err.print("Subarray =");
+        System.out.print("Subarray =");
         for(int i=start;i<=end;i++){
-            System.err.print(nums[i]+" ");
+            System.out.print(nums[i]+" ");
         }
 
     }   
